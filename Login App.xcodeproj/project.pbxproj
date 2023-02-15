@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A24BBE1299B64C900E28949 /* FriendsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A24BBE0299B64C900E28949 /* FriendsListViewController.swift */; };
+		1A24BBE3299B96E500E28949 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A24BBE2299B96E500E28949 /* CustomTableViewCell.swift */; };
 		1A6850BA2998ED93003654CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6850B92998ED93003654CF /* AppDelegate.swift */; };
 		1A6850BC2998ED93003654CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6850BB2998ED93003654CF /* SceneDelegate.swift */; };
 		1A6850BE2998ED93003654CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6850BD2998ED93003654CF /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A24BBE0299B64C900E28949 /* FriendsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListViewController.swift; sourceTree = "<group>"; };
+		1A24BBE2299B96E500E28949 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		1A6850B62998ED93003654CF /* Login App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Login App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A6850B92998ED93003654CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A6850BB2998ED93003654CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 				1A6850B92998ED93003654CF /* AppDelegate.swift */,
 				1A6850BB2998ED93003654CF /* SceneDelegate.swift */,
 				1A6850BD2998ED93003654CF /* ViewController.swift */,
+				1A24BBE0299B64C900E28949 /* FriendsListViewController.swift */,
+				1A24BBE2299B96E500E28949 /* CustomTableViewCell.swift */,
 				1A6850BF2998ED93003654CF /* Main.storyboard */,
 				1A6850C22998ED95003654CF /* Assets.xcassets */,
 				1A6850C42998ED95003654CF /* LaunchScreen.storyboard */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A24BBE1299B64C900E28949 /* FriendsListViewController.swift in Sources */,
+				1A24BBE3299B96E500E28949 /* CustomTableViewCell.swift in Sources */,
 				1A6850BE2998ED93003654CF /* ViewController.swift in Sources */,
 				1A6850BA2998ED93003654CF /* AppDelegate.swift in Sources */,
 				1A6850BC2998ED93003654CF /* SceneDelegate.swift in Sources */,
