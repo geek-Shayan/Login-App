@@ -63,7 +63,7 @@ class FriendsListViewController: UIViewController, UITableViewDataSource, UITabl
         return cell
     }
     
-    @objc func profileViewButtonWasTappaed(sender: UIButton){
+//    @objc func profileViewButtonWasTappaed(sender: UIButton){
 //            if let cell = sender.superview as? MatchingUsersTVCell{
 //                CellAnimator.animate(cell: cell)
 //            }
@@ -83,7 +83,7 @@ class FriendsListViewController: UIViewController, UITableViewDataSource, UITabl
 //            self.navigationController?.pushViewController(pushData, animated: true)
 //        }
         
-        }
+//        }
     
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
