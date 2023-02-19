@@ -15,6 +15,7 @@
 		1A6850C12998ED93003654CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A6850BF2998ED93003654CF /* Main.storyboard */; };
 		1A6850C32998ED95003654CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A6850C22998ED95003654CF /* Assets.xcassets */; };
 		1A6850C62998ED95003654CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A6850C42998ED95003654CF /* LaunchScreen.storyboard */; };
+		1ACC978D299CF3770069271A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACC978C299CF3760069271A /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		1A6850C22998ED95003654CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A6850C52998ED95003654CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A6850C72998ED95003654CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ACC978C299CF3760069271A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				1A6850B92998ED93003654CF /* AppDelegate.swift */,
 				1A6850BB2998ED93003654CF /* SceneDelegate.swift */,
 				1A6850BD2998ED93003654CF /* ViewController.swift */,
+				1ACC978C299CF3760069271A /* ProfileViewController.swift */,
 				1A24BBE0299B64C900E28949 /* FriendsListViewController.swift */,
 				1A24BBE2299B96E500E28949 /* CustomTableViewCell.swift */,
 				1A6850BF2998ED93003654CF /* Main.storyboard */,
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ACC978D299CF3770069271A /* ProfileViewController.swift in Sources */,
 				1A24BBE1299B64C900E28949 /* FriendsListViewController.swift in Sources */,
 				1A24BBE3299B96E500E28949 /* CustomTableViewCell.swift in Sources */,
 				1A6850BE2998ED93003654CF /* ViewController.swift in Sources */,

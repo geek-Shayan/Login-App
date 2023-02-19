@@ -13,5 +13,12 @@ class CustomTableViewCell: UITableViewCell {
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var viewProfileButton: UIButton!
     
+    var tapBlock: (() -> Void)? = nil
+
+    @IBAction func ViewProfileButtonPressed(_ sender: UIButton) {
+        
+        tapBlock?()
+    }
+    
 
 }
