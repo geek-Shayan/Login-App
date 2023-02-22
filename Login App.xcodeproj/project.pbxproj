@@ -16,6 +16,8 @@
 		1A6850C32998ED95003654CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A6850C22998ED95003654CF /* Assets.xcassets */; };
 		1A6850C62998ED95003654CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A6850C42998ED95003654CF /* LaunchScreen.storyboard */; };
 		1ACC978D299CF3770069271A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACC978C299CF3760069271A /* ProfileViewController.swift */; };
+		1ADD791829A626500038F031 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADD791729A626500038F031 /* GalleryViewController.swift */; };
+		1ADD791A29A636E60038F031 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADD791929A636E60038F031 /* CustomCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		1A6850C52998ED95003654CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A6850C72998ED95003654CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1ACC978C299CF3760069271A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		1ADD791729A626500038F031 /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		1ADD791929A636E60038F031 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,8 @@
 				1A6850B92998ED93003654CF /* AppDelegate.swift */,
 				1A6850BB2998ED93003654CF /* SceneDelegate.swift */,
 				1A6850BD2998ED93003654CF /* ViewController.swift */,
+				1ADD791729A626500038F031 /* GalleryViewController.swift */,
+				1ADD791929A636E60038F031 /* CustomCollectionViewCell.swift */,
 				1ACC978C299CF3760069271A /* ProfileViewController.swift */,
 				1A24BBE0299B64C900E28949 /* FriendsListViewController.swift */,
 				1A24BBE2299B96E500E28949 /* CustomTableViewCell.swift */,
@@ -148,7 +154,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1ACC978D299CF3770069271A /* ProfileViewController.swift in Sources */,
+				1ADD791829A626500038F031 /* GalleryViewController.swift in Sources */,
 				1A24BBE1299B64C900E28949 /* FriendsListViewController.swift in Sources */,
+				1ADD791A29A636E60038F031 /* CustomCollectionViewCell.swift in Sources */,
 				1A24BBE3299B96E500E28949 /* CustomTableViewCell.swift in Sources */,
 				1A6850BE2998ED93003654CF /* ViewController.swift in Sources */,
 				1A6850BA2998ED93003654CF /* AppDelegate.swift in Sources */,

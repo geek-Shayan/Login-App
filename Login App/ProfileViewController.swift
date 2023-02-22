@@ -10,9 +10,10 @@ import UIKit
 class ProfileViewController: UIViewController {
     @IBOutlet weak var profileImage: UIImageView!
     @IBOutlet weak var profileName: UILabel!
-
+    @IBOutlet weak var profileGalleryBtn: UIButton!
+    
     var image = UIImage()
-    var label = ""
+    var name = ""
     
     
     override func viewDidLoad() {
@@ -20,8 +21,17 @@ class ProfileViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        profileName.text = label
+        profileName.text = name
         profileImage.image = image
+    }
+    
+    
+    @IBAction func galleryButtonPressed(_ sender: UIButton) {
+        if let pushData = self.storyboard?.instantiateViewController(withIdentifier: "GalleryViewController") as? GalleryViewController {
+//                    pushData.image = UIImage(named: friend.image)!
+//                    pushData.name = friends.name
+            self.navigationController?.pushViewController(pushData, animated: true)
+        }
     }
     
     
