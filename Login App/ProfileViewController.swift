@@ -14,6 +14,7 @@ class ProfileViewController: UIViewController {
     
     var image = UIImage()
     var name = ""
+//    var gallery = [String]()
     
     
     override func viewDidLoad() {
@@ -29,7 +30,9 @@ class ProfileViewController: UIViewController {
     @IBAction func galleryButtonPressed(_ sender: UIButton) {
         if let pushData = self.storyboard?.instantiateViewController(withIdentifier: "GalleryViewController") as? GalleryViewController {
 //                    pushData.image = UIImage(named: friend.image)!
-//                    pushData.name = friends.name
+//            pushData.name = profileName.text!
+            pushData.name = name
+//            pushData.images = gallery
             self.navigationController?.pushViewController(pushData, animated: true)
         }
     }
