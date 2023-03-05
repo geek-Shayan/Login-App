@@ -20,6 +20,7 @@ class GalleryViewController: UIViewController, UICollectionViewDelegate, UIColle
     var name = ""
 //    var images = [String]()
 //    var labels = ["photo-1","photo-2","photo-3","photo-4","photo-5","photo-1","photo-2","photo-3","photo-4","photo-5"]
+    let data: [String] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()

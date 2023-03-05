@@ -33,6 +33,7 @@ class ProfileViewController: UIViewController {
 //            pushData.name = profileName.text!
             pushData.name = name
 //            pushData.images = gallery
+//            pushData.data = 
             self.navigationController?.pushViewController(pushData, animated: true)
         }
     }
